@@ -1,4 +1,6 @@
-x = input("Some comma separated numbers: ")
-n = x.split(",")
-count = n.count('4')
-print ("The number of times 4 occured is ", count)
+x = input("Specify a number: ")
+v = ("0123456789")
+if x in v:
+    print ("Yes, your number is in the group")
+else:
+    print ("No, your number is not in the group")
