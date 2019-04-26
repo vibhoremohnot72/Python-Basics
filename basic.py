@@ -1,6 +1,4 @@
-x = input("Specify a number: ")
-v = ("0123456789")
-if x in v:
-    print ("Yes, your number is in the group")
-else:
-    print ("No, your number is not in the group")
+nums = [34, 1, 0, -23]
+print("Original numbers in the list: ",nums)
+new_nums = list(filter(lambda x: x >0, nums))
+print("Positive numbers in the list: ",new_nums)
